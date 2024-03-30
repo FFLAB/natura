@@ -22,8 +22,67 @@ img {
   height: auto;
 }
 
+/** UTILITY CLASSES **/
+/* Displays */
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .mainFont {
   font-family: Helvetica, Arial, sans-serif;
+}
+
+/*** COLORS CLASSES ***/
+.bg-red {
+  background-color: #8d2723;
+  color: #ffffff;
+}
+.bg-violet {
+  background-color: #6b4e79;
+  color: #ffffff;
+}
+.bg-gold {
+  background-color: #b87f22;
+  color: #ffffff;
+}
+.bg-blue {
+  background-color: #5b9a96;
+  color: #ffffff;
+}
+.bg-grey {
+  background-color: #8b97a7;
+  color: #ffffff;
+}
+
+/* Text classes */
+.tac {
+  text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.tal {
+  text-align: left;
 }
 
 /* classes added with JS */
