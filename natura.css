@@ -20,4 +20,39 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.mainFont {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* classes added with JS */
+.add {
+  margin: auto;
+}
+
+.change_color {
+  background-color: rgb(121, 121, 121);
+}
+
+/* ***** */
+button {
+  padding: 20px 30px;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+button:hover {
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.col {
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: rgb(110, 110, 110);
+  color: white;
 }/*# sourceMappingURL=natura.css.map */
