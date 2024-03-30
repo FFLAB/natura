@@ -1,3 +1,7 @@
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
 /* RESET */
 * {
   margin: 0;
@@ -72,6 +76,43 @@ img {
   color: #ffffff;
 }
 
+.bg-green-1 {
+  background-color: #069e2d;
+  color: #ffffff;
+}
+.bg-green-2 {
+  background-color: #058e3f;
+  color: #ffffff;
+}
+.bg-green-3 {
+  background-color: #04773b;
+  color: #ffffff;
+}
+.bg-green-4 {
+  background-color: #036016;
+  color: #ffffff;
+}
+.bg-green-5 {
+  background-color: #03440c;
+  color: #ffffff;
+}
+
+.green-1 {
+  color: #069e2d;
+}
+.green-2 {
+  color: #058e3f;
+}
+.green-3 {
+  color: #04773b;
+}
+.green-4 {
+  color: #036016;
+}
+.green-5 {
+  color: #03440c;
+}
+
 /* Text classes */
 .tac {
   text-align: center;
@@ -114,4 +155,10 @@ button:hover {
   border-radius: 10px;
   background-color: rgb(110, 110, 110);
   color: white;
-}/*# sourceMappingURL=natura.css.map */
+}
+
+/* SCSS HEX */
+/* from Light 1 to Dark 5*/
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient *//*# sourceMappingURL=natura.css.map */

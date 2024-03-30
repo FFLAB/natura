@@ -1,9 +1,22 @@
 //$keys-map
 //key: value
+
+
 $colors-map: (
     red: #8d2723ff,
     violet: #6b4e79ff,
     gold: #b87f22ff,
     blue: #5b9a96ff,
     grey: #8b97a7ff
-); 
+);
+$colors-map-green: (
+   /* from Light 1 to Dark 5*/
+   1: #069e2dff,
+   2: #058e3fff,
+   3: #04773bff,
+   4: #036016ff,
+   5: #03440cff
+);
+
+
+

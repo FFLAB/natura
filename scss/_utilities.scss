@@ -9,7 +9,7 @@
 .mainFont{font-family: $mainFont;}
 
 /*** COLORS CLASSES ***/
-// create color classes
+// create backround color classes
 .bg {
     @each $key, $value in $colors-map {
         &-#{$key} {
@@ -18,6 +18,23 @@
        }
       }
     }
+.bg-green {
+    @each $key, $value in $colors-map-green {
+        &-#{$key} {
+         background-color: $value;
+         color: #ffffff;  
+       }
+      }
+}
+// Color Classes
+.green {
+    @each $key, $value in $colors-map-green {
+        &-#{$key} {
+         color: $value; 
+       }
+      }
+}
+
 /* Text classes */
 .tac{text-align: center;}
 .tar{text-align: right;}
