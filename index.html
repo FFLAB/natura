@@ -13,16 +13,41 @@
         }
         h1{
             font-size: 140px;
-        }      
+        }
+        
+        /* leaf */
+        .container {
+            justify-content: center;
+        }
+        .leaf {
+            width: 200px;
+            height: 200px;
+            border-radius: 0 160px;
+            background-color: #259925;
+            transform: rotate(0deg);
+        }
+
+        a{
+            color: white;
+            text-decoration: underline;
+        }
+
+
     </style>
     <header class="grid tac mainFont">  
         <h1 class="green-4">Natura</h1>
         <h2 class="green-3">an educational css framework</h2>
+        <div class="container flex mtx-50">
+            <div class="leaf"></div>
+        </div>
     </header>
-    <main class="grid mainFont col bg-green-2 myp-50 width-80 m-auto mtx-50">
-        <p>A simple but smart CSS framework, with some interactive JavaScript Vanilla actions.</p>
-        <p></p>
+    <main class="grid mainFont col bg-green-2 myp-50 width-60 m-auto mtx-50">
+        <p class="tac">A simple but smart CSS framework, with some interactive JavaScript Vanilla actions.</p>
+        <ul class="tac mtx-50">
+            <li><a href="es_center-divs.html">1. Exercise "Center Divs"</a></li>
+        </ul> 
     </main>
+    
  
 
     
